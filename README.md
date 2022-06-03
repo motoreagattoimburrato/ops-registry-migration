@@ -45,9 +45,9 @@ new_registry = "localhost:5002"
 # password old registry (optional)
 #old_passwd = "changeme"
 # username new registry (optional)
-# new_user = "changeme"
+#new_user = "changeme"
 # password new registry (optional)
-# new_passwd = "changeme"
+#new_passwd = "changeme"
 ```
 
 ## Testing the script

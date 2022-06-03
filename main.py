@@ -10,12 +10,6 @@ import json
 import docker
 import requests as rq
 
-# TO DO:
-# - if docker official registry is necessary email -> client.login(username=user, password=passwd, email=EMAIL, registry='https://index.docker.io/v1/')
-# - if registry is v1 type
-# - improve logging
-# - improve GET registry images with token/tls_cert
-
 ### Configuration vars
 # old registry name
 old_registry = "localhost:5001"
@@ -26,9 +20,9 @@ new_registry = "localhost:5002"
 # password old registry (optional)
 #old_passwd = "changeme"
 # username new registry (optional)
-# new_user = "changeme"
+#new_user = "changeme"
 # password new registry (optional)
-# new_passwd = "changeme"
+#new_passwd = "changeme"
 
 # check if you docker CLI and status
 def docker_health_check(client):
