@@ -64,3 +64,4 @@ chmod a+x ./scripts/create_registry_v2.sh ; ./scripts/create_registry_v2.sh
 - [ ] check if registry is v1 type and create functions
 - [ ] improve logging
 - [ ] check and use if registry images needs token/tls_cert/credentials (GET)
+- [ ] create CI and QA check
