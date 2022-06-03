@@ -81,12 +81,6 @@ def docker_migrator():
     if 'new_user' and 'new_passwd' in globals():
         docker_login_registry(client, new_user, new_passwd, new_registry)
 
-    docker_list_remote_images(old_registry)
-
-    for image_name in docker_list_remote_images(old_registry):
-        old_image = image_name.strip()
-        new_image = old_image.replace(old_registry, new_registry)
-
     docker_images_list = docker_list_remote_images(old_registry)
     for image_name in docker_images_list:
         old_image = image_name.strip()
