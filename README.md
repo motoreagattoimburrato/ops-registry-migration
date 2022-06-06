@@ -1,6 +1,6 @@
-# Registry Migration OPS script
+# OPS python script - Registry Migration (v2 to v2)
 
-This is a `python` script (python v3.8) that will migrate a registry to another registry (today onyl v2 to v2).
+This is a `python` script (python v3.8) that will migrate a registry to another registry (today only v2 to v2).
 
 Comands to launch
 
